@@ -1,0 +1,213 @@
+.center{
+	text-align: center;
+}
+
+.block{
+	background: #eee;
+	border: 1px solid #ccc;
+}
+
+.head{
+height:472px;
+background-size:cover;
+background-image: url("../images/head.jpg");
+}
+
+.header,.footer{
+	height:28px;
+	background:url("../images/bg.png") repeat-x;
+}
+
+.h{
+	height:28px;
+}
+
+.ph{
+	float:left;
+	padding-top:8px;
+}
+
+.phone{
+	display:block;
+	float:left;
+	padding: 3px 0 0 10px;
+}
+
+.right{
+	float:right;
+}
+
+.i{
+	padding:4px 0 0 9px;
+}
+
+.cont{
+	margin-top:12px;
+}
+
+.n{
+	height:72px !important;
+	background-color: #71cff3;
+}
+
+.navbar{
+	border-radius: 0;
+}
+
+.navbar-brand{padding: 3px 15px;}
+
+.navbar-brand>img{
+	display:inline-block;
+}
+
+.navbar-brand>span{
+	display: inline-block;
+	padding: 9px 5px;
+	margin: 2px 0 0 0;
+}
+
+a{
+	color:#fff;
+}
+
+.v{
+	background: #71cff3;
+	margin-bottom: 0;
+	padding: 10px 10px;
+}
+
+.v~img,.center~img,.center~.row>img,.w{
+	width:100%;
+}
+
+p{
+	margin-top:16px;
+}
+
+.pro{
+	margin-top: 0px;
+}
+
+.pro1{
+	margin-top: 5px;
+	color:#fff;
+}
+
+
+	.navbar-toggle{
+		background-color:#e84545; 
+		border: 1px solid #000;
+	}
+
+.f{
+	background-color: #71cff3;
+	color:#fff;
+	//height: 300px;
+	margin-top: 15px;
+	//width:100%;
+}
+
+input{
+	color: #e84545;
+	width:49%;
+}
+
+.button{
+	background-color:#e84545;
+	color: #fff;
+	margin-top:10px; 
+}
+
+.i{
+	font-style: italic;
+}
+
+.ulf{
+	list-style: none;
+	padding-left: 5px;
+}
+
+.ah{
+	text-decoration: underline;
+}
+
+.mt{
+	margin-top: 15px;
+}
+
+.pro1{
+	margin-bottom: 0px !important;
+}
+
+#makeMeScrollable
+		{
+			width:100%;
+			height: 181px;
+			position: relative;
+		}
+
+#makeMeScrollableg
+		{
+			width:100%;
+			height: 251px;
+			position: relative;
+		}
+		
+		/* Replace the last selector for the type of element you have in
+		   your scroller. If you have div's use #makeMeScrollable div.scrollableArea div,
+		   if you have links use #makeMeScrollable div.scrollableArea a and so on. */
+		#makeMeScrollable div.scrollableArea img,#makeMeScrollableg div.scrollableArea img
+		{
+			position: relative;
+			float: left;
+			margin: 0;
+			padding: 0;
+			/* If you don't want the images in the scroller to be selectable, try the following
+			   block of code. It's just a nice feature that prevent the images from
+			   accidentally becoming selected/inverted when the user interacts with the scroller. */
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+		}
+
+@media only screen and (max-width : 1200px){
+	#makeMeScrollable{
+		height: 203px;
+	}
+}
+
+@media only screen and (max-width : 992px){
+	.navbar-brand>span{
+		font-size: 14px;
+	}
+	.nav>li{
+		font-size: 12px;
+	}
+	.nav>li>a{
+		padding: 15px 7px;
+	}
+	#makeMeScrollable{
+		height: 238px;
+	}
+}
+
+@media only screen and (max-width : 768px){
+	.fo{
+		//float: left; 
+		width:35%;
+		margin-left: 25%;
+		
+	}
+	.foo{
+		background:url("../images/bg.png") repeat-x;
+		height: 28px;
+	}
+	.pro1{
+		text-align: center;
+	}
+	#makeMeScrollable{
+		height: 221px;
+	}
+}

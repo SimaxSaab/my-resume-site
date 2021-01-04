@@ -1,0 +1,13 @@
+h1{
+	text-align:center;
+}
+
+p{
+	color:#f00;
+	display:none;
+
+}
+
+.pv{
+	display:block;
+}
