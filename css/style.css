@@ -190,12 +190,24 @@ h4>span,.place-edu {
     flex-direction: column;
   }
 
-  .sidebar,.myphoto {
+  .sidebar {
     width: 100%;
+  }
+
+  .myphoto {
+    display: block;
+    margin: 0 auto 30px;
   }
 
   h1 {
     font-size: 36px;
+  }
+}
+
+@media (max-width: 370px) {
+  .myphoto {
+    width: 100%;
+    height: auto;
   }
 }
 
