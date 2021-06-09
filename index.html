@@ -8,13 +8,17 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
   <meta name="theme-color" content="#000000">
 </head>
 <body>
   <!-- Wrapper container -->
   <div class="wrapper">
     <aside class="sidebar">
-      <img class="myphoto" src="img/photo.webp" width="370" height="493" alt="This photo is mine">
+      <img class="myphoto animate__animated animate__hinge" src="img/photo.webp" width="370" height="493" alt="This photo is mine">
       <!-- Contacts -->
       <div id="accrdn">
         <div class="contacts">
@@ -58,7 +62,7 @@
       <!-- About me main info container -->
       <div>
         <h2 class="h2">Front-End Developer</h2>
-        <h1 class="h1">Maksym Sava</h1>
+        <h1 class="h1" data-tilt>Maksym Sava</h1>
         <p>Начинал свой путь в программировании в 1995 году с языка BASIC. Затем(в институте) был FORTRAN-77 и Turbo Pascal. С получением должности на метзаводе фрилансил на Delphi для студентов. Был также VBA for EXcel. Но потом всё померкло перед Javascript . . .</p>
       </div>
       <!-- Projects container -->
@@ -75,7 +79,7 @@
       <div class="work-experience">
         <h3 class="h3">Work Experience</h3>
         <!-- Company -1 -->
-        <div class="company">
+        <div class="company" data-aos="fade-up">
           <h4>Angular developer <span><a href="https://pro-elektro.com.ua" target="_blank">AZR systems</a></span></h4>
           <span>may 2021 - up to now | Ukraine</span>
           <ul>
@@ -86,7 +90,7 @@
           </ul>
         </div>
         <!-- Company 0 -->
-        <div class="company">
+        <div class="company" data-aos="fade-up">
           <h4>Колл-менеджер <span><a href="https://pro-elektro.com.ua" target="_blank">pro-elektro.com.ua</a></span></h4>
           <span>march 2021 - up to now | Ukraine</span>
           <ul>
@@ -97,7 +101,7 @@
           </ul>
         </div>
         <!-- Company 1 -->
-        <div class="company">
+        <div class="company" data-aos="fade-up">
           <h4>Подсобный рабочий <span>Фасадмастер</span></h4>
           <span>2018 - august 2020 | Ukraine</span>
           <ul>
@@ -108,7 +112,7 @@
           </ul>
         </div>
         <!-- Company 2 -->
-        <div class="company">
+        <div class="company" data-aos="fade-up">
           <h4>Инженер по АСУ ТП <span>ОАО "Алчевский Металлургический Комбинат"</span></h4>
           <span>May 2007 - October 2017 | Ukraine</span>
           <ul>
@@ -118,7 +122,7 @@
           </ul>
         </div>
         <!-- Company 3 -->
-        <div class="company">
+        <div class="company" data-aos="fade-up">
           <h4>Электромонтёр <span>ОАО "Алчевский Металлургический Комбинат"</span></h4>
           <span>February 2005 - May 2007 | Ukraine</span>
           <ul>            
@@ -129,21 +133,25 @@
         </div>        
       </div>
       <!-- Education -->
-      <div class="education">
+      <div class="education" data-aos="fade-up">
         <h3 class="h3">Education</h3>
         <h4 class="place-edu">Donbass State Technical University</h4>
         <h4 class="special">Electromechanical Systems</h4>
         <span>Septermber 1997 - June 2005 | Ukraine</span>
       </div>
       <!-- Link block -->
-      <div class="link-block">
+      <div class="link-block" data-aos="fade-up">
         <a class="link-block__link contacts-link" href="CV Sava Maksym.docx">Download docx resume</a>
         <a class="link-block__link contacts-link" href="CV Sava Maksym.pdf" target="_blank">pdf resume</a>
       </div>
     </div>
   </div>
+  <script>
+    AOS.init();
+  </script>
   <script src="js/jQmin351.js" defer></script>
   <script src="js/jqui.js" defer></script>
   <script src="js/s.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js" defer></script>
 </body>
 </html>
