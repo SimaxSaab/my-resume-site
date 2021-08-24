@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
+
 body {
   background-color: #f5f7fa;
   padding: 20px;
@@ -242,4 +247,8 @@ h4>span>a,
 .slo h1 {
   font-size: 45px;
   line-height: 50px;
+}
+
+.imagine {
+  width: 100%;
 }
