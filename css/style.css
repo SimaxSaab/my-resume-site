@@ -32,6 +32,20 @@ body {
   /* height: 494px; */
 }
 
+.menu {
+  margin-left: 40px;
+  list-style: none;
+  background: #fff;
+  margin-right: 40px;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.menu a {
+  color: #595959;
+  font-weight: 700;
+}
+
 .contacts {
   padding-top: 3px;
   padding-left: 40px;
@@ -104,6 +118,10 @@ ol {
 .projects a,.projects span {
   color: #595959;
   font-weight: 400;
+  
+}
+
+.projects a:hover {
   text-decoration: none;
 }
 
@@ -124,7 +142,9 @@ h4 {
   letter-spacing: 0.48px;
 }
 
-h4>span,.place-edu {
+h4>span,
+h4>span>a,
+.place-edu {
   color: #ff6b08;
 }
 
@@ -215,4 +235,9 @@ h4>span,.place-edu {
   .ui-accordion .ui-accordion-content {
     padding: 1em 1.5em;
   }
+}
+
+.slo h1 {
+  font-size: 45px;
+  line-height: 50px;
 }
