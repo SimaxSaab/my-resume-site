@@ -121,7 +121,9 @@ ol {
   
 }
 
-.projects a:hover, .menu a:hover, .company a:hover {
+.projects a:hover, 
+.menu a:hover, 
+.company a:hover {
   text-decoration: none;
 }
 
