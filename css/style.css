@@ -35,6 +35,8 @@ body {
 .myphoto {
   width: 370px;
   /* height: 494px; */
+  animation: hinge; 
+  animation-delay: 1s;
 }
 
 .menu {
