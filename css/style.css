@@ -37,7 +37,7 @@ body {
   /* height: 494px; */
   animation: hinge; 
   animation-delay: 1s;
-  /* position: absolute; */
+  position: absolute;
 }
 
 
