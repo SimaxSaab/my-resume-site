@@ -37,7 +37,68 @@ body {
   /* height: 494px; */
   animation: hinge; 
   animation-delay: 1s;
+  position: absolute;
 }
+
+
+
+#slice {
+  width: 370px;
+  height: 493px;
+  position: relative;
+  /* top: -493px; */
+}
+
+#slice img {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+}
+
+#slice div {
+  position: absolute;
+  z-index: 1;
+  background-repeat: no-repeat;
+  /* transform: rotateY(-50deg) scale(0.5); */
+  /* transition: all 0.6s cubic-bezier(0.445, 0.05, 0.55, 0.95); */
+  transform-origin: bottom;
+  /* opacity: 0; */
+  animation: animate 0.75s ease-in-out forwards;
+}
+
+#slice.active div {
+  opacity: 1;
+  transform: rotateY(0deg) translateY(0);
+  transition-delay: 0.5s;
+}
+
+#slice div:nth-child(even) {
+  animation: animate 1s ease-in-out forwards;
+}
+#slice div:nth-child(7n + 3) {
+  animation: animate 2.5s ease-in-out forwards;
+}
+#slice div:nth-child(7n + 7) {
+  animation: animate 1.5s ease-in-out forwards;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: scale(0) translateY(1000px);
+  }
+  50% {
+    opacity: 1;
+    
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0px);
+    
+  }
+}
+
+
 
 .menu {
   margin-left: 40px;
