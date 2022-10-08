@@ -167,6 +167,10 @@ h1 {
   line-height: 89px;
 }
 
+h4 {
+  margin-top: 15px;
+}
+
 p {
   width: 56%;/*413px;*/
 }
